@@ -229,6 +229,7 @@
 
 - (id)init;
 - (instancetype)initWithLogFileManager:(id <DDLogFileManager>)logFileManager;
+- (DDLogFileInfo *)currentLogFileInfo;
 
 /**
  * Log File Rolling:
